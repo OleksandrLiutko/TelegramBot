@@ -1,0 +1,31 @@
+node_modules
+yarn.lock
+
+.env
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+auth_react/node_modules
+auth_react/.pnp
+auth_react/.pnp.js
+
+# testing
+auth_react/coverage
+
+# production
+auth_react/build
+
+# misc
+auth_react/.DS_Store
+auth_react/.env.local
+auth_react/.env.development.local
+auth_react/.env.test.local
+auth_react/.env.production.local
+
+auth_react/npm-debug.log*
+auth_react/yarn-debug.log*
+auth_react/yarn-error.log*
+
+dex_react/build
+dex_react/node_modules
